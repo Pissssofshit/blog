@@ -7,8 +7,6 @@
 ## 操作系统
 * 进程调度算法
 * linux 操作
-## 微服务
-[Go 微服务实战 38 讲](https://kaiwu.lagou.com/course/courseInfo.htm?courseId=287#/detail/pc?id=3810)
 ### 书籍
 the kubernates book
 ## 分布式
