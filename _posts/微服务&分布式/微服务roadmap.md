@@ -25,6 +25,8 @@
 ### Service Mesh
 - [ ] Service Mesh 解决了什么问题
 ### 服务注册与发现
+- [ ] 服务发布和引用的实践
+- [ ]
 - [ ] 服务注册与发现中心的职责
     - [ ] ETCD的Go使用实例
         - [ ] [golang etcd 简明教程](https://learnku.com/articles/37343)
@@ -50,3 +52,6 @@
 ### 分布式日志系统
 
 ## RPC 原理
+
+## 资料
+[深入浅出分布式技术原理](https://time.geekbang.org/column/article/481085)
