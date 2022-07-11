@@ -1,3 +1,0 @@
-- [ ] [Go 并发编程 — 深入浅出 sync.Pool ，围观最全的使用姿势，理解最深刻的原理](https://zhuanlan.zhihu.com/p/352210244)
-- [ ] 关键字 panic、defer
-- [ ] 网络轮询器

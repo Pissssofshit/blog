@@ -5,7 +5,10 @@ Redis 是使用了一个「哈希表」保存所有键值对，哈希表的最�
 
 
 ## 面试题
-Redis 持久化机制
+- [ ] Redis 持久化机制
+- [ ] Redis 为什么这么快
+### 资料
+[Redis为什么这么快？](https://mp.weixin.qq.com/s/KtzvawDnQQwhfjnCoXpcMQ)
 缓存雪崩、缓存穿透、缓存预热、缓存更新、缓存降级等问题
 热点数据和冷数据是什么
 Memcache与Redis的区别都有哪些？
