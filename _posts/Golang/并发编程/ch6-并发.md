@@ -5,6 +5,8 @@
 ### 什么是 Scheduler Semantics
 #### 
 P和M代表了计算机资源或是Go程序运行的上下文
+GMP的目的是为了提高各类资源的利用率(以及降低切换上下文的成本)
+P代表了CPU资源，M代表系统线程
 P代表逻辑上的处理器，M代表操作系统线程
 > This (logical processor) P and (an operating system thread) M represent the compute power or execution context for running the Go program
 

@@ -93,7 +93,19 @@ https://developer.aliyun.com/article/656330
 
 [详细分析http2 和http1.1 区别](https://www.jianshu.com/p/63fe1bf5d445)
 
-[思考gRPC ：为什么是HTTP/2](https://developer.aliyun.com/article/656330)
+**P0** [思考gRPC ：为什么是HTTP/2](https://developer.aliyun.com/article/656330)
+这个思考系列有点东西
+
+## 设计目标
+gRPC是google开源的高性能跨语言的RPC方案。gRPC的设计目标是在任何环境下运行，支持可插拔的负载均衡，跟踪，运行状况检查和身份验证。它不仅支持数据中心内部和跨数据中心的服务调用，它也适用于分布式计算的最后一公里，将设备，移动应用程序和浏览器连接到后端服务。
+### 跨语言
+定义protobuf 生成多套语言 go、python(我们的项目中有用python编写的)
+### 为什么选择http2
+- [ ] 什么是http2,它的栈是怎么样的
+> 简而言之，gGRPC把元数据放到HTTP/2 Headers里，请求参数序列化之后放到 DATA frame里。
+Headers、DATA frame
+还是要小林 ！！！
+- [ ] 准确来说gRPC设计上是分层的，底层支持不同的协议，目前gRPC支持 这是什么意思?
 [「连载三」gRPC Streaming, Client and Server](https://eddycjy.com/posts/go/grpc/2018-09-24-stream-client-server/)
 
 [了解 gRPC 一篇就够了](https://toutiao.io/posts/9bek5r/preview)
