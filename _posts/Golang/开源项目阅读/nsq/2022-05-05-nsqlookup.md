@@ -1,8 +1,8 @@
 ---
 title: nsq源码阅读(2)-nsqlookup
 category: [Golang]
-layout: post
 tags: [Golang,源码阅读,nsq]
+layout: post
 ---
 
 ### 介绍
