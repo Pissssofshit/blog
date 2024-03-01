@@ -81,6 +81,7 @@
 #### 资料
 
 - [ ] [深入介绍 Golang 中的 bufio.Scanner](https://zhuanlan.zhihu.com/p/37673679)
+- [ ] [Golang锁](https://juejin.cn/post/6986473832202633229)
 - [ ] 关键字
   - [ ] go
   - [ ] **P0**defer、panic、recover
@@ -346,3 +347,11 @@
 ## 编辑器
 
 [neovim](https://zhuanlan.zhihu.com/p/511992981 "lsp+lua")
+
+[golang i18国际化](https://zyfdegh.github.io/post/201805-translation-go-i18n/)
+
+书单：
+《程序员的数学》
+
+投资:
+https://zhuanlan.zhihu.com/p/556630180

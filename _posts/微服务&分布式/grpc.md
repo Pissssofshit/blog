@@ -66,6 +66,7 @@ protocolbuffer(以下简称PB)是google的一种数据交换的格式，它独�
 ### grpc 调用过程
 
 #### 服务端
+- [ ] 为啥grpc服务端是tcp server呢？
 ##### 服务注册
 
 * 创建连接
