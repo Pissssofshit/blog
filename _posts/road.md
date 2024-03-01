@@ -1,6 +1,6 @@
 [toc]
 
-## 两日计划
+## 
 
 - [ ] 中间件生态
 - [ ] string.Builder
@@ -30,14 +30,16 @@
     Go语言底层原理剖析中有，抓紧去看下，做总结
   - [ ] 调度策略
 - [X] 协程泄露的几种情况
-- [ ] **P1**网络轮询器
+- [ ] **P1** 网络轮询器
   epoll、select一起看，做总结
 - [ ] select原理
 - [X] 读写锁
 - [X] 协程池
   - [X] [Handling 1 Million Requests per Minute with Golang](https://medium.com/smsjunk/handling-1-million-requests-per-minute-with-golang-f70ac505fcaa)
     [中文版](https://learnku.com/go/t/23456/using-the-go-language-to-handle-1-million-requests-per-minute)
-- [ ] [为什么使用通信共享内存](https://draveness.me/whys-the-design-communication-shared-memory/)
+- [x] [为什么使用通信共享内存](https://draveness.me/whys-the-design-communication-shared-memory/)
+- [ ] [golang 最常被问到的问题](https://go.dev/doc/faq#csp)
+- [ ] [手写连接池](https://cloud.tencent.com/developer/article/1514923)
 
 #### 内存管理
 
@@ -55,7 +57,9 @@
   - [X] 三色标记
 - [X] 对象池/内存池
   底层实现还要再看下
-  - [X] [Go 并发编程 — 深入浅出 sync.Pool ，围观最全的使用姿势，理解最深刻的原理](https://zhuanlan.zhihu.com/p/352210244)
+  - [x] [Go 并发编程 — 深入浅出 sync.Pool ，围观最全的使用姿势，理解最深刻的原理](https://zhuanlan.zhihu.com/p/352210244)
+    - [ ] Golang atomic包时怎么实现的
+      - [ ] [Go并发编程(五) 深入理解 sync/atomic](https://lailin.xyz/post/go-training-week3-atomic.html)
   - [ ] 底层实现
     这个也挺重要
 - [ ] 零拷贝
@@ -118,6 +122,7 @@
 
 #### 资料
 
+还不如再看看那本网络编程的书
 - [ ] [史上最详细Go语言之网络编程介绍（干货！）](https://zhuanlan.zhihu.com/p/302547547)
 - [ ] [GO的网络编程分享](https://learnku.com/articles/57947)
   这两个网络编程没什么东西，找时间总结一下
@@ -132,12 +137,13 @@
 ## 项目设计
 
 - [ ] [为什么这么设计](https://draveness.me/whys-the-design/)
-- [ ] 需求到落地的过程
 - [ ] [IM系统设计](https://time.geekbang.org/column/article/494460)
 - [ ] [如何设计一个秒杀系统](https://time.geekbang.org/column/article/40153)
 - [ ] [高并发系统设计 40 问](https://time.geekbang.org/column/intro/100035801?tab=catalog)
 
 ## 网络
+
+- [ ] [tcp 协议 rfc](https://www.rfc-editor.org/rfc/rfc793)
 
 - [ ] [终于搞懂了服务器为啥产生大量的TIME_WAIT！](https://segmentfault.com/a/1190000040786792)
 - [ ] [TIME_WAIT and Its Design Implications](https://segmentfault.com/a/1190000041796954?utm_source=sf-similar-article)
@@ -339,6 +345,10 @@
   - [ ] golang怎么解决乱码问题
 
 ### 资料
+
+- [ ] [go高级并发模式](https://blogtitle.github.io/go-advanced-concurrency-patterns-part-1/)
+
+- [ ] 重构:改善xxx
 
 - [ ] [五分钟零基础搞懂Hadoop](https://zhuanlan.zhihu.com/p/20176725)
 
