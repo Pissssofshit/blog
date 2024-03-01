@@ -6,12 +6,17 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden; // https://stackoverflow.com/questions/53439785/stop-horizontal-scrolling-with-translate-transform
+}
+
 body {
   color: var(--body-color);
   background-color: var(--body-bg);
   font-family: var(--body-font);
   font-size: var(--body-font-size);
   line-height: var(--line-height);
+  overflow-x: hidden; // https://stackoverflow.com/questions/53439785/stop-horizontal-scrolling-with-translate-transform
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +38,6 @@ figure {
 }
 
 figcaption {
-  font-family: var(--body-font);
   font-size: .8em;
 }
 
@@ -153,7 +157,6 @@ a[href^="#fnref:"] {
 }
 
 #markdown-toc {
-  font-family: var(--body-font);
   font-size: .8em;
   padding: 2em 3em;
   margin: 2em 0;

@@ -1,11 +1,14 @@
 # Tao <!-- omit in toc -->
 
+<a href="https://jekyll-themes.com">
+  <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" loading="lazy">
+</a>
+
 Tao is a content-first minimalist Jekyll theme for blogs.
 
 Check the [demo](http://vfvong.blog/jekyll-theme-tao/).
 
-![screenshot](screenshot-light.png)
-![screenshot](screenshot-dark.png)
+![screenshot](screenshot.jpg)
 
 ## Highlight Features <!-- omit in toc -->
 

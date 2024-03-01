@@ -16,13 +16,18 @@ $screen-desktop: 1024px;
   --body-color:       var(--oc-gray-8);
   --body-color-dark:  var(--oc-black);
   --accent-color:     var(--oc-orange-8);
+  --message-color:    var(--oc-green-8);
 
   --body-font:        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --title-font:       'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  --text-font:        Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   --code-font:        'Courier New', Courier, monospace;
   --line-height:      1.5;
   --body-font-size:   16px;
+
+  --sidebar-width:        16rem;
+  --sidebar-bg:           var(--oc-gray-8);
+  --sidebar-color:        var(--oc-gray-5);
+  --sidebar-accent-color: var(--oc-white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +38,7 @@ $screen-desktop: 1024px;
     --body-color:       var(--oc-gray-3);
     --body-color-dark:  var(--oc-white);
     --accent-color:     var(--oc-blue-3);
+    --message-color:    var(--oc-green-3);
   }
 }
 

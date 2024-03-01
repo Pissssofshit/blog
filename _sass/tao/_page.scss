@@ -2,11 +2,6 @@
  * Styles for the pages and posts
  */
 
-.page-content,
-.post-content {
-  font-family: var(--text-font);
-}
-
 .page-title,
 .post-title {
   margin: 0;
@@ -58,4 +53,11 @@ a.post-tag {
 
 .post-next {
   text-align: right;
+}
+
+.message {
+  padding: var(--spacing);
+  border-radius: .5em;
+  background-color: var(--message-color);
+  color: var(--body-bg);
 }
